@@ -1,0 +1,54 @@
+body{
+  margin: 0px;
+  background-color: black;
+  color:rgb(224,217,217)
+}
+
+#app {
+  font-weight: normal;
+}
+
+header{
+  font-size:2em;
+  color: white;
+  margin-bottom:20px;
+  background-color: green;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.componente{
+  text-align: center;
+  border:2px solid rgb(10,69,4);
+  background-color:#050d04;
+  border-radius: 15px;
+  margin: 30px;
+  padding: 10px;
+}
+
+.componente p{
+  font-size: 1.5rem;
+}
+
+button{
+  background-color: rgb(10,69,4);
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 5px 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: rgb(5,102,28);
+}
+
+input{
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  font-size:24px;
+  margin: 0px 5px 10px 0px;
+}
