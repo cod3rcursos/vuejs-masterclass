@@ -17,7 +17,12 @@
     </div>
 </template>
 
-<script setup>
+<script>
 import {ref} from "vue"
-const valor = ref("Vue é muito legal!")
+export default {
+	setup: function () {
+    const valor = ref("Vue é muito legal!")
+    return { valor };
+    }
+}
 </script>
